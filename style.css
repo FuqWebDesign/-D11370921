@@ -1,0 +1,191 @@
+/* Reset some default styling */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url(images/38D78AEA-C14A-47AD-8AEB-E25BDB06E50F.JPG);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+/* Navbar styling */
+.navbar {
+    background-color: rgba(255, 255, 255, 0.9) !important; /* Override Bootstrap */
+    padding: 1rem;
+}
+
+.navbar .logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.navbar .nav-links {
+    list-style: none;
+    display: flex;
+}
+
+.navbar .nav-links li {
+    margin-left: 1.5rem;
+}
+
+.navbar .nav-links a {
+    color: #333;
+    text-decoration: none;
+    font-size: 1rem;
+    transition: color 0.3s ease;
+}
+
+.navbar .nav-links a:hover {
+    color: #ffa500;
+}
+
+/* Full-page introduction styling */
+.intro {
+    background-image: url(images/38D78AEA-C14A-47AD-8AEB-E25BDB06E50F.JPG);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.intro-section {
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem 0;
+}
+
+.intro-content {
+    width: 100%;
+    max-width: 300px;
+    padding: 2rem;
+    margin: 0 auto;
+    background: rgba(249, 249, 249, 0.9);
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Image styling */
+.intro-image img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 4px solid #ffa500;
+    margin-bottom: 1rem;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Text content styling */
+.intro-text h1 {
+    font-size: 2rem;
+    color: #333;
+    margin-bottom: 1rem;
+    text-align: center;
+}
+
+.intro-text p {
+    font-size: 1rem;
+    color: #666;
+    margin-bottom: 1rem;
+    line-height: 1.6;
+}
+
+/* Social links styling */
+.social-links {
+    margin-top: 1.5rem;
+    text-align: center;
+}
+
+.social-links a {
+    color: #ffa500;
+    text-decoration: none;
+    font-weight: bold;
+    margin: 0 0.5rem;
+    transition: color 0.3s ease;
+    display: inline-block;
+}
+
+.social-links a:hover {
+    color: #333;
+}
+
+/* Responsive styling for smaller screens */
+@media (max-width: 768px) {
+    .intro-content {
+        margin: 1rem;
+        padding: 1.5rem;
+    }
+
+    .intro-text h1 {
+        font-size: 1.5rem;
+    }
+
+    .intro-image img {
+        width: 120px;
+        height: 120px;
+    }
+}
+
+/* Business Card styling */
+.business-card {
+    background: white;
+    border: none;
+    border-radius: 15px;
+    overflow: hidden;
+}
+
+.left-section {
+    background: linear-gradient(145deg, #2c3e50, #3498db) !important;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-right: 1px solid rgba(0, 0, 0, 0.125);
+}
+
+.company-info {
+    color: white;
+}
+
+.company-info h3 {
+    margin-bottom: 0.5rem;
+    font-weight: 600;
+}
+
+.company-info p {
+    font-size: 0.9rem;
+    opacity: 0.8;
+}
+
+.contact-info p {
+    margin-bottom: 0.5rem;
+    color: #555;
+}
+
+.contact-info i {
+    width: 20px;
+    color: #3498db;
+}
+
+.social-links {
+    margin-top: 2rem;
+}
+
+.social-links .btn {
+    border-radius: 50px;
+    padding: 0.5rem 1rem;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .left-section {
+        border-right: none;
+        border-bottom: 1px solid rgba(0, 0, 0, 0.125);
+    }
+}
